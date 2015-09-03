@@ -4,16 +4,17 @@ ObjectNoSQL -- Very simple, lightweight and easy-to-use NoSQL database based on 
 
 Usage:
 
-Add repository to build.gradle
-
+Add repository to *build.gradle*
+```
 repositories {
     maven {
         url  "http://dl.bintray.com/dmart77/maven"
     }
 }
-
-Add dependency to the same build.gradle
-
+```
+Add dependency to the same *build.gradle*
+```
 dependencies {
     compile 'com.dmart.objectnosql:objectnosql:1.1'
 }
+```
