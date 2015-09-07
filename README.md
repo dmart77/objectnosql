@@ -14,15 +14,7 @@ Bonus features:
 
 ## 1. How to include *objectnosql*
 
-Add repository to *build.gradle*
-```
-repositories {
-    maven {
-        url  "http://dl.bintray.com/dmart77/maven"
-    }
-}
-```
-Add dependency to the same *build.gradle*
+Add dependency to your app's *build.gradle*
 ```
 dependencies {
     compile 'com.dmart.objectnosql:objectnosql:1.2'
