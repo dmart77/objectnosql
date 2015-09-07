@@ -12,7 +12,7 @@ public class GsonSerializer implements ISerializer {
     public GsonSerializer() {
         GsonBuilder gb = new GsonBuilder();
         gb.serializeNulls();
-        gb.setDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSXXX");
+        gb.setDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
         this._gson = gb.create();
     }
 
