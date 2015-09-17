@@ -11,6 +11,7 @@ Main features:
 Bonus features:
 * Pluggable serializer
 * Accent insensitive search
+* Paging support
 
 ## 1. How to include *objectnosql*
 
