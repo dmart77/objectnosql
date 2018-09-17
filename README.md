@@ -17,6 +17,10 @@ Bonus features:
 
 Add dependency to your app's *build.gradle*
 ```
+repositories {
+    jcenter()
+}
+
 dependencies {
     compile 'com.dmart.objectnosql:objectnosql:1.2'
 }
